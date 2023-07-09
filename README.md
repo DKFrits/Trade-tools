@@ -1,38 +1,18 @@
-# create-svelte
+# Trade Tools
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Current implemented tools
 
-## Creating a project
+    - Position calculator for stocks/crypto
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Planned tools
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+    - Trade logbook
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## TODO's
 
-## Developing
+    - Core position calculator ✅
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+    - Fix position type text styling to be aligned to left of input field ⏩
+    - Add localstorage persistence to position calculator for it to remember the values filled in previously ⏩
+    - Add subtle animation for calculations when the box appears
+    - Add navbar when more tools are implemented

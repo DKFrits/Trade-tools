@@ -44,7 +44,7 @@
 				<span>Position Type</span>
 				<div class="input-group input-group-divider grid-cols-[auto_1fr_auto]">
 					<div class={positionType == 'Long' ? 'bg-green-500' : 'bg-primary-500'} />
-					<select bind:value={positionType} class="select border-none px-[5.45rem]">
+					<select bind:value={positionType} class="select border-none pl-[0.8rem] pr-[10.1rem]">
 						<option value="Long">Long</option>
 						<option value="Short">Short</option>
 					</select>
@@ -125,6 +125,6 @@
 	}
 
 	.input-group div {
-		width: 3.5rem;
+		width: 2.65rem;
 	}
 </style>

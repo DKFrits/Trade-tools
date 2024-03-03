@@ -35,6 +35,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"lightweight-charts": "^4.0.1"
+		"@types/node": "^20.4.2",
+		"bybit-api": "^3.7.1",
+		"lightweight-charts": "^4.0.1",
+		"svelte-lightweight-charts": "^2.2.0"
 	}
 }

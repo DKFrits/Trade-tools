@@ -12,6 +12,7 @@
 
     - Core position calculator ✅
     - Fix position type text styling to be aligned to left of input field ✅
+    - automatic order placement button ✅
   
     - Add localstorage persistence to position calculator for it to remember the values filled in previously ⏩
     - Add subtle animation for calculations when the box appears
